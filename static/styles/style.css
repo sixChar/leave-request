@@ -1,0 +1,13 @@
+@keyframes fade-in-keys {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+
+.fade-in {
+    animation: fade-in-keys 0.25s ease-in;
+}
+

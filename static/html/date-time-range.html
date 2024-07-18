@@ -1,0 +1,32 @@
+<div class="my-5">
+    <div class="mb-3 ms-3 form-group row">
+        <div class="form-check col-sm-2">
+            <label for="singleDay{%INDEX%}" class="form-check-label">Single Day</label>
+            <input type="checkbox" class="form-check-input" id="singleDay{%INDEX%}">
+        </div>
+        <div class="form-check col-sm-2">
+            <label for="fullDay{%INDEX%}" class="form-check-label">Full Day(s)</label>
+            <input type="checkbox" class="form-check-input" id="fullDay{%INDEX%}">
+        </div>
+    </div>
+    <div id="dateRangeHolder{%INDEX%}" class="mb-3 row">
+        <div id="startDateHolder{%INDEX%}" class="col">
+            <label id="startDateLabel{%INDEX%}" for="startDate{%INDEX%}" class="form-label">Start Date</label>
+            <input id="startDate{%INDEX%}" type="date" class="form-control" required>
+        </div>
+        <div id="endDateHolder{%INDEX%}" class="col">
+            <label id="endDateLabel{%INDEX%}" for="endDate{%INDEX%}" class="form-label">End Date (inclusive)</label>
+            <input id="endDate{%INDEX%}" type="date" class="form-control" required>
+        </div>
+    </div>
+     <div id="timeRangeHolder{%INDEX%}" class="mb-3 row">
+        <div class="col"> 
+            <label for="timeFrom{%INDEX%}" class="form-label">Time From</label>
+            <input type="time" class="form-control" id="timeFrom{%INDEX%}" required>
+        </div>
+        <div class="col">
+            <label for="timeTo{%INDEX%}" class="form-label">Time To</label>
+            <input type="time" class="form-control" id="timeTo{%INDEX%}" required>
+        </div>
+    </div>
+<div>
